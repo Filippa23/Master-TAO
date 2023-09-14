@@ -8,8 +8,8 @@
 }
 
  .main-title {
-    background-color: var(--color-third);
-    border: 2px solid var(--color-primary);
+    background-color: $color-third;
+    border: 2px solid $color-primary;
     border-radius: 10px;
     margin: 10px 0;
     text-align: center;
@@ -27,9 +27,9 @@
  .title-titles,
  .title-titles-style,
  .title-fancybox-bg {
-    border: 2px solid var(--color-secondary);
+    border: 2px solid $color-secondary;
     border-radius: 10px;
-    background-color: var(--color-primary);
+    background-color: $color-primary;
     padding: 15px;
     margin: 15px;
     margin-left: 35px;
@@ -43,8 +43,8 @@
  .title-buttons, 
  .title-titles,
  .title-fancybox-bg {
-    border: 2px solid var(--color-primary);
-    background-color: var(--color-secondary);
+    border: 2px solid $color-primary;
+    background-color: $color-secondary;
 }
 
 
@@ -61,16 +61,16 @@
     padding: 45px;
 }
 .color-1 {
-   background-color: var(--color-primary);
+   background-color: $color-primary;
 }
 .color-2 {
- background-color: var(--color-secondary);
+ background-color: $color-secondary;
 }
 .color-3 {
- background-color: var(--color-third);
+ background-color: $color-third;
 }
 .color-4 {
- background-color: var(--color-fours);
+ background-color: $color-fours;
 }
 
 .list-1 li,
@@ -81,7 +81,7 @@
 
 .text::selection {
     color: white;
-    background: var(--color-secondary);
+    background: $color-secondary;
   }
 
 .scroll-1 {
@@ -103,7 +103,7 @@
 }
   
 .scroll::-webkit-scrollbar-thumb {
-    background-color: var(--color-secondary);
+    background-color: $color-secondary;
     border-radius: 20px;
 }
   
@@ -129,7 +129,7 @@
     text-align: center;
     flex-shrink: 0;
     border-radius: 90px;
-    background: var(--color-primary);
+    background: $color-primary;
     font-family: Proxima Nova;
     color: #FFF;
     font-style: normal;
@@ -182,7 +182,7 @@
     height: 50px;
     flex-shrink: 0;
     border-radius: 90px;
-    border: 1px solid var(--color-primary);
+    border: 1px solid $color-primary;
     color: #FFF;
     text-align: center;
     font-family: Proxima Nova;
@@ -258,7 +258,7 @@ line-height: 124.5%; /* 44.82px */
   height: 24px;
   display: flex;
   border-radius: 4px;
-  border: 1px solid var(--color-third);
+  border: 1px solid $color-third;
   background: url(./assets/img/rectangle.svg) center no-repeat #fff;
 }
 
