@@ -14,6 +14,10 @@ header {
             padding: 13px 26px;
             letter-spacing: 0px;
         }
+
+        .btn-8 {
+            background-color:$color-primary;
+        }
     }
 
     .nav-link {
@@ -25,7 +29,7 @@ header {
             color: $color-secondary;
         }
     }
-
+ 
 
 }
 
