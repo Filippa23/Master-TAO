@@ -1,6 +1,6 @@
 
 
-body {
+#projekt {
   background-color:#363A4D;
 }
 
@@ -11,13 +11,6 @@ body {
     
 }
 
- .main-title {
-  background-color: $color-third;
-  border: 2px solid $color-primary;
-  border-radius: 10px;
-  margin: 10px 0;
-  text-align: center;
-}
 
  .title-colors, .title-fonts, .title-font-family, .title-list-1, .title-list-2, .title-text, .title-scroll, .title-buttons, .title-checkbox, .title-titles, .title-titles-style, .title-fancybox-bg {
   border: 2px solid $color-secondary;
@@ -89,16 +82,21 @@ body {
 	}
 }
 
-.btn {
+
+
+
+
+
+.snap {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 10px;
-   
+  cursor: pointer;
 }
 
-.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6 {
+.snap-1, .snap-2, .snap-3, .snap-4, .snap-5, .snap-6 {
   display: inline-block;
   text-align: center;
   flex-shrink: 0;
@@ -110,53 +108,54 @@ body {
   font-weight: 600;
 }
 
-.btn-1 {
+.snap-1 {
   width: 310px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
 }
- .btn-2 { 
+ .snap-2 { 
   width: 293px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .btn-3 {
+ .snap-3 {
   width: 253px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .btn-4 {
+ .snap-4 {
   width: 243px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .btn-5 {
+ .snap-5 {
   width: 171px;
   height: 50px;
   font-size: 15px;
   line-height: 146%; /* 21.9px */
  }
 
- .btn-6 {
+ .snap-6 {
   width: 153px;
   height: 50px;
   font-size: 15px;
   line-height: 146%; /* 21.9px */
  }
 
-.btn-7 {
+.snap-7 {
   width: 153px;
   height: 50px;
   flex-shrink: 0;
   border-radius: 90px;
   border: 1px solid $color-primary;
+  background-color: #363A4D;
   color: #FFF;
   text-align: center;
   font-family: Proxima Nova;
