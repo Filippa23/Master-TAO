@@ -87,7 +87,7 @@
 
 
 
-.snap {
+.button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,7 +96,12 @@
   cursor: pointer;
 }
 
-.snap-1, .snap-2, .snap-3, .snap-4, .snap-5, .snap-6 {
+.col-lg-4 .button .btn-1,
+.col-lg-4 .button .btn-2, 
+.col-lg-4 .button .btn-3,
+.col-lg-4 .button .btn-4, 
+.col-lg-4 .button .btn-5,
+.btn-6[type=button] {
   display: inline-block;
   text-align: center;
   flex-shrink: 0;
@@ -106,50 +111,51 @@
   color: #FFF;
   font-style: normal;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
-.snap-1 {
+.col-lg-4 .button .btn-1 {
   width: 310px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
 }
- .snap-2 { 
+.col-lg-4 .button .btn-2 { 
   width: 293px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .snap-3 {
+ .col-lg-4 .button .btn-3 {
   width: 253px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .snap-4 {
+ .col-lg-4 .button .bnt-4 {
   width: 243px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .snap-5 {
+ .col-lg-4 .button .btn-5 {
   width: 171px;
   height: 50px;
   font-size: 15px;
   line-height: 146%; /* 21.9px */
  }
 
- .snap-6 {
+ .btn-6[type=button] {
   width: 153px;
   height: 50px;
   font-size: 15px;
   line-height: 146%; /* 21.9px */
  }
 
-.snap-7 {
+ .col-lg-4 .button .btn-7 {
   width: 153px;
   height: 50px;
   flex-shrink: 0;
@@ -213,7 +219,7 @@
   line-height: 124.5%;
   }
 
-.form-check-input[type=checkbox] + label:before, .form-check-input[type=checkbox]:checked + label:before {
+  .col-lg-4 .checkbox .form-check-input[type=checkbox] + label:before, .form-check-input[type=checkbox]:checked + label:before {
   content: "";
   position: absolute;
   top: 0px;
@@ -226,19 +232,19 @@
   background: url(./assets/img/rectangle.svg) center no-repeat #fff;
 }
 
-.form-check-input[type=checkbox]:checked + label:before {
+.col-lg-4 .checkbox .form-check-input[type=checkbox]:checked + label:before {
   background: url(./assets/img/checked-1.svg) center no-repeat white;
 }
 
-.input-box {
+.col-lg-4 .checkbox .input-box {
   position: relative;
 }
 
-.form-check-input[type=checkbox]:focus {
+.col-lg-4 .checkbox .form-check-input[type=checkbox]:focus {
   box-shadow: none;
   }
 
-.form-check-input[type=checkbox] {
+.col-lg-4 .checkbox .form-check-input[type=checkbox] {
   margin-bottom: 16px;
 }
 
