@@ -12,7 +12,7 @@
 }
 
 
- .title-colors, .title-fonts, .title-font-family, .title-list-1, .title-list-2, .title-text, .title-scroll, .title-buttons, .title-checkbox, .title-titles, .title-titles-style, .title-fancybox-bg {
+ .title-colors, .title-fonts, .title-font-family, .title-list-1, .title-list-2, .title-text, .title-scroll, .title-buttons, .title-checkbox, .title-titles, .title-titles-style, .title-fancybox {
   border: 2px solid $color-secondary;
   border-radius: 10px;
   background-color: $color-primary;
@@ -23,14 +23,14 @@
   font-size: 20px;
 }
 
- .title-fonts, .title-list-1, .title-text, .title-buttons, .title-titles,.title-fancybox-bg {
+ .title-fonts, .title-list-1, .title-text, .title-buttons, .title-titles,.title-fancybox {
   border: 2px solid $color-primary;
   background-color: $color-secondary;
 }
 
 
 
- .color-1, .color-2, .color-3, .color-4 {
+ .color {
   display: flex;
   flex-direction: column;
   border: 2px solid;
@@ -96,12 +96,12 @@
   cursor: pointer;
 }
 
-.col-lg-4 .button .btn-1,
-.col-lg-4 .button .btn-2, 
-.col-lg-4 .button .btn-3,
-.col-lg-4 .button .btn-4, 
-.col-lg-4 .button .btn-5,
-.btn-6[type=button] {
+.btn.btn-1,
+.btn.btn-2, 
+.btn.btn-3,
+.btn.btn-4, 
+.btn.btn-5,
+.btn.btn-6 {
   display: inline-block;
   text-align: center;
   flex-shrink: 0;
@@ -114,48 +114,48 @@
   margin-bottom: 5px;
 }
 
-.col-lg-4 .button .btn-1 {
+.btn.btn-1 {
   width: 310px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
 }
-.col-lg-4 .button .btn-2 { 
+.btn.btn-2 { 
   width: 293px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .col-lg-4 .button .btn-3 {
+ .btn.btn-3 {
   width: 253px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .col-lg-4 .button .bnt-4 {
+ .btn.bnt-4 {
   width: 243px;
   height: 68px;
   font-size: 16px;
   line-height: 146%; /* 23.36px */
  }
 
- .col-lg-4 .button .btn-5 {
+ .btn.btn-5 {
   width: 171px;
   height: 50px;
   font-size: 15px;
   line-height: 146%; /* 21.9px */
  }
 
- .btn-6[type=button] {
+ .btn.btn-6 {
   width: 153px;
   height: 50px;
   font-size: 15px;
   line-height: 146%; /* 21.9px */
  }
 
- .col-lg-4 .button .btn-7 {
+ .btn.btn-7 {
   width: 153px;
   height: 50px;
   flex-shrink: 0;
@@ -219,34 +219,43 @@
   line-height: 124.5%;
   }
 
-  .col-lg-4 .checkbox .form-check-input[type=checkbox] + label:before, .form-check-input[type=checkbox]:checked + label:before {
+
+
+
+.checkbox .input-box {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.checkbox .form-check-input[type=checkbox] {
+  display: none;
+}
+
+.checkbox .form-check-input[type=checkbox] + label {
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+
+.checkbox .form-check-input[type=checkbox] + label:before, .form-check-input[type=checkbox]:checked + label:before {
   content: "";
   position: absolute;
+  cursor: pointer;
   top: 0px;
-  left: -8px;
+  left: 0px;
   width: 24px;
   height: 24px;
   display: flex;
   border-radius: 4px;
   border: 1px solid $color-third;
-  background: url(./assets/img/rectangle.svg) center no-repeat #fff;
+  background: url(assets/img/rectangle.svg) center no-repeat #fff;
 }
 
-.col-lg-4 .checkbox .form-check-input[type=checkbox]:checked + label:before {
-  background: url(./assets/img/checked-1.svg) center no-repeat white;
+.checkbox .form-check-input[type=checkbox]:checked + label:before {
+  background: url(assets/img/checked-1.svg) center no-repeat red;
 }
 
-.col-lg-4 .checkbox .input-box {
-  position: relative;
-}
 
-.col-lg-4 .checkbox .form-check-input[type=checkbox]:focus {
-  box-shadow: none;
-  }
-
-.col-lg-4 .checkbox .form-check-input[type=checkbox] {
-  margin-bottom: 16px;
-}
 
 .screen {
   margin: 5px;
