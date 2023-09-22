@@ -3,6 +3,36 @@
     margin-bottom: -24px;
 }
 
+.template-title {
+    text-align: center;
+    position: relative;
+    padding: 18px;
+    margin-bottom: 50px;
+
+    h2 {
+       
+      
+        line-height: 124.5%;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+    h3 {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 1.25;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: calc(100% - 2px);
+        transform: translate( -50%, 0);
+        width: 85px;
+        height: 2px;
+        background-color: $color-secondary;
+    }
+}
+
 .advantage {
     display: flex;
     flex-direction: column;
@@ -49,3 +79,6 @@
 
 
 }
+
+
+
