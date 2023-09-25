@@ -3,6 +3,15 @@
     margin-bottom: -24px;
 }
 
+.advantages.container-fluid {
+    background-color:#363A4D;
+    //width: 1820px;
+   //height: 725px;
+   padding-top: 90px;
+   padding-bottom: 112px;
+  
+}
+
 .template-title {
     text-align: center;
     position: relative;
@@ -29,7 +38,7 @@
         transform: translate( -50%, 0);
         width: 85px;
         height: 2px;
-        background-color: $color-secondary;
+        background-color: $color-primary;
     }
 }
 
@@ -75,10 +84,16 @@
     .slick-dots {
         padding: 0;
         margin: 15px 0;
-    }
-
-
+        display: flex;
+        position: row;
+        align-items: center;
+        justify-content: center;
+       
+        
+   }
+ 
 }
+
 
 
 

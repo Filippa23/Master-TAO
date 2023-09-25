@@ -1,6 +1,9 @@
 header {
+    
     .navbar {
-        padding: 25px 0 39px;
+        padding: 26px 0 39px;
+        height: 49px;
+        max-width: 100%;
 
         &-nav {
             max-width: 618px;
@@ -11,7 +14,7 @@ header {
         }
 
         .btn {
-            padding: 11px 10px;
+            padding: 13px 26px;
             letter-spacing: 0px;
         }
     }
@@ -108,4 +111,8 @@ header {
   
   .hamburger--minus.is-active .hamburger-inner::after {
     bottom: 0; }
+  
+
+
+
   

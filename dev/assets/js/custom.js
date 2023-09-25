@@ -7,7 +7,7 @@ burger.addEventListener('click', function() {
 
 $(document).ready(function() {
   
-    mobileOnlySlider("#advanages-slider", true, false, 1024);
+    mobileOnlySlider("#advantages-slider", true, false, 991);
 
 function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
 var slider = $($slidername);
