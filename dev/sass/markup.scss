@@ -12,18 +12,18 @@
 }
 
 
- .title-colors, .title-fonts, .title-font-family, .title-list-1, .title-list-2, .title-text, .title-scroll, .title-buttons, .title-checkbox, .title-titles, .title-titles-style, .title-fancybox {
+ .title-colors, .title-fonts, .title-font-family, .title-list-1, .title-list-2, .title-text, .title-scroll, .title-button, .title-checkbox, .title-titles, .title-titles-style, .title-fancybox {
   border: 2px solid $color-secondary;
   border-radius: 10px;
   background-color: $color-primary;
-  padding: 15px;
+  padding: 15px 25px;
   margin: 15px;
   margin-left: 35px;
   text-align: center;
   font-size: 20px;
 }
 
- .title-fonts, .title-list-1, .title-text, .title-buttons, .title-titles,.title-fancybox {
+ .title-fonts, .title-list-1, .title-text, .title-button, .title-titles,.title-fancybox {
   border: 2px solid $color-primary;
   background-color: $color-secondary;
 }
@@ -222,22 +222,24 @@
 
 
 
-.checkbox .input-box {
+.input-box {
+  display: flex;
   position: relative;
   margin-bottom: 16px;
 }
 
-.checkbox .form-check-input[type=checkbox] {
+.form-check-input[type=checkbox] {
   display: none;
 }
 
-.checkbox .form-check-input[type=checkbox] + label {
+.form-check-input[type=checkbox] + label {
   cursor: pointer;
   margin-left: 40px;
 }
 
 
-.checkbox .form-check-input[type=checkbox] + label:before, .form-check-input[type=checkbox]:checked + label:before {
+.form-check-input[type=checkbox] + label:before, 
+.form-check-input[type=checkbox]:checked + label:before {
   content: "";
   position: absolute;
   cursor: pointer;
@@ -251,8 +253,8 @@
   background: url(assets/img/rectangle.svg) center no-repeat #fff;
 }
 
-.checkbox .form-check-input[type=checkbox]:checked + label:before {
-  background: url(assets/img/checked-1.svg) center no-repeat red;
+.form-check-input[type=checkbox]:checked + label:before {
+  background: url(assets/img/checked-2.svg) center no-repeat  #fff;
 }
 
 

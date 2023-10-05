@@ -2,12 +2,15 @@ const burger = document.querySelector('#hamburger');
 
 burger.addEventListener('click', function() {
     burger.classList.toggle('is-active')
-})
+});
 
 
 $(document).ready(function() {
   
     mobileOnlySlider("#advantages-slider", true, false, 991);
+
+    Fancybox.bind("[data-fancybox]", {
+    });
 
 function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
 var slider = $($slidername);
@@ -33,7 +36,7 @@ $(window).on("resize", function () {
     return slider.slick(settings);
   }
 });
-} // Mobile Only Slider
+}  //Mobile Only Slider
 });
 
 
