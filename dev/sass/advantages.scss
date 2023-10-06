@@ -88,7 +88,7 @@
         position: row;
         align-items: center;
         justify-content: center; 
-        list-style-type: none; 
+        
          
    }
       button {
@@ -97,8 +97,11 @@
         transition: 0.9;
         width: 8px;
         height: 8px;
+        &::before {
+            display: none;
+        }
       }
-      
+
       .slick-active button {
         background: white;
       }
