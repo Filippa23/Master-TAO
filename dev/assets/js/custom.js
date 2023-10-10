@@ -4,6 +4,23 @@ burger.addEventListener('click', function() {
     burger.classList.toggle('is-active')
 });
 
+$(document).ready(function() { 
+  $('.first-screen').slick( {
+      infinite: true,
+      dots: true,
+      appendArrows: '.first-screen-nav',
+      responsive: [ { 
+          breakpoint: 991,
+          settings: {
+          arrows: false,
+           }
+          },
+        ]
+  });
+})
+  $('.first-screen').append($('.first-screen-nav')); 
+
+
 
 $(document).ready(function() {
   
@@ -38,5 +55,3 @@ $(window).on("resize", function () {
 });
 }  //Mobile Only Slider
 });
-
-

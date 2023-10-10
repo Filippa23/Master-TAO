@@ -1,5 +1,6 @@
 header {
-    
+    margin-top: 26px;
+    margin-bottom: 50px;
     .navbar {
         padding: 26px 0 39px;
         height: 49px;
@@ -102,14 +103,14 @@ header {
 .hamburger--minus .hamburger-inner::before, .hamburger--minus .hamburger-inner::after {
     transition: bottom 0.08s 0s ease-out, top 0.08s 0s ease-out, opacity 0s linear; }
   
-  .hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
+.hamburger--minus.is-active .hamburger-inner::before, .hamburger--minus.is-active .hamburger-inner::after {
     opacity: 0;
     transition: bottom 0.08s ease-out, top 0.08s ease-out, opacity 0s 0.08s linear; }
   
-  .hamburger--minus.is-active .hamburger-inner::before {
+.hamburger--minus.is-active .hamburger-inner::before {
     top: 0; }
   
-  .hamburger--minus.is-active .hamburger-inner::after {
+.hamburger--minus.is-active .hamburger-inner::after {
     bottom: 0; }
   
 
