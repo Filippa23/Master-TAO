@@ -18,7 +18,7 @@ $(document).ready(function() {
         ]
   });
 })
-  $('.first-screen').append($('.first-screen-nav')); 
+ // $('.first-screen').append($('.first-screen-nav')); 
 
 
 
