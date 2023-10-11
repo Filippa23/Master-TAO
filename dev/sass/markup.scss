@@ -171,12 +171,17 @@
   line-height: 146%; /* 21.9px */
 }
 
+.btn img {
+  display: inline-block;
+  padding-left: 49px;
+}
+
 
  icon {
   margin: auto;
   width: 27px;
   height: 27px;
-  flex-shrink: 0;    
+  flex-shrink: 0;   
  }
  
 
