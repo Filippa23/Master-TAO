@@ -11,6 +11,9 @@
    //height: 725px;
    padding-top: 90px;
    padding-bottom: 112px;
+   margin-right: 50px;
+   margin-left: 50px;
+   
   
 }
 
@@ -51,6 +54,7 @@
     margin: 24px auto;
     max-width: 263px;
     padding: 0 12px;
+    
 
     &-img-box {
         
@@ -83,6 +87,7 @@
     }
 }
 #advantages-slider {
+  
     .slick-dots {
         padding: 0;
         margin-top: 48px;
