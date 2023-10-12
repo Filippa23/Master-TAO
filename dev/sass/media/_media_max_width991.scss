@@ -9,10 +9,10 @@
         font-size: 24px;
     }
 
-     h3,
-     .h3 {
-         font-size: 24px;
-     }
+     //h3,
+     //.h3 {
+     //    font-size: 24px;
+   // }
 
     // h4,
     // .h4 {
@@ -172,9 +172,6 @@ section.container-fluid,
 .container-fluid.first-screen {
     padding: 54px 0 60px;
     position: relative;
-    margin: 0 auto;
-    max-width: 100%;
-
     &:before {
         border-radius: 0;
         left: 0;
@@ -183,7 +180,49 @@ section.container-fluid,
 
 }
 
+section {
+
+    .container-fluid {
+        padding: 54px 0 60px;
+        position: relative;
+        width: 100%;
+        
+            &::before {
+            content: "";
+            border-radius: 0;
+            left: 0;
+            right: 0;
+            height: 479px;
+            width: 100%;
+        }
+
+         ul.slick-dots {
+            bottom: 6px;
+            left: 52%;
+        }
+
+    }
+
+    .container.template-title {
+        margin-bottom: 45px;
+    }
+
+   .advantage-title {
+        padding: 0 14px;
+        font-weight: 300;
+    }
 }
+#advantages-slider 
+    .slick-dots {
+        padding: 0;
+        margin: 15px 0;
+}
+
+}
+
+
+
+
 
 
 

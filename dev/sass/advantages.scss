@@ -22,8 +22,6 @@
     margin-bottom: 50px;
 
     h2 {
-       
-      
         line-height: 124.5%;
         text-transform: uppercase;
         margin-bottom: 6px;
@@ -85,7 +83,9 @@
     }
 }
 #advantages-slider {
-  
+    .container {
+        max-width: 1170px 
+    } 
     .slick-dots {
         padding: 0;
         margin-top: 48px;
