@@ -7,11 +7,11 @@
     margin-right: 50px;
    
   
-    &__title {
+    &-title {
     @extend h1; 
     margin-bottom: 8px;
    // max-width: 463px;
-    min-width: 500px;
+    //min-width: 500px;
     text-transform: uppercase;
     line-height: 126%; /* 70.56px */
     margin: 0 auto 10px;
@@ -19,7 +19,7 @@
 
     }
 
-   &__subtitle {
+   &-subtitle {
     margin-bottom: 37px;
     max-width: 345px;
     font-size: 20px;
@@ -29,7 +29,7 @@
     text-align: left;
     }
   
-    & .first-screen__item {
+     .first-screen-item {
     display: flex;
     min-height: 700px;
     background-repeat: no-repeat;
