@@ -81,18 +81,17 @@
 
 .first-screen-nav {
     display: flex;
-    position: absolute;
-    top: 65%;
+    position:absolute;
+    top: calc(100% - 35%);
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
     justify-content: space-between;
     width: calc(100% - 180px);
     max-width: 1471px;
-    height: 0px;
-   
-  
-.slick-arrow {
+    height: 0;
+
+
+      .slick-arrow  {
         display: flex;
         position: relative;
         transform: translate(0, -50%);
@@ -105,6 +104,9 @@
          // &:hover {
           // background-image: url(assets/img/arrow-1.svg); 
          // }
+
+          
+
           &.slick-prev {
             background-image: url(assets/img/arrow-1.svg); 
               //transform: rotate(180deg) translate(0, 50%);
