@@ -71,20 +71,18 @@
       &::before {
         display: none;
       }
-     }
-    
-       &.slick-dots.slick-active li {
+       &.slick-active {
       background: white;
-    }
+      }
 
 }
-
+}
 }
 
 .first-screen-nav {
     display: flex;
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -100,22 +98,32 @@
         transform: translate(0, -50%);
         border: none;
         background: center no-repeat transparent;
-        background-image: url(assets/img/arrow-3.svg);
+        //background-image: url(assets/img/arrow-3.svg);
         z-index: 1;
         width: 46px;
         height: 46px;
-          &:hover {
-           background-image: url(assets/img/arrow-2.svg); 
-          }
+         // &:hover {
+          // background-image: url(assets/img/arrow-1.svg); 
+         // }
           &.slick-prev {
-              transform: rotate(180deg) translate(0, 50%);
+            background-image: url(assets/img/arrow-1.svg); 
+              //transform: rotate(180deg) translate(0, 50%);
              &::before {
               display: none;
              }
+             &:hover {
+              background-image: url(assets/img/arrow-2.svg); 
+             }
         }
-            &.slick-next::before {
+          &.slick-next {
+              background-image: url(assets/img/arrow-3.svg); 
+            &::before {
               content: "";
-    }
+             } 
+             &:hover {
+              background-image: url(assets/img/arrow-4.svg); 
+             } 
+        }
       }
     }
 
