@@ -55,3 +55,26 @@ $(window).on("resize", function () {
 });
 }  //Mobile Only Slider
 });
+
+
+
+
+document.getElementById('fileInput').onchange = function () {
+  //short name
+  // document.getElementById('file-name').innerHTML = this.files[0].name;
+  document.getElementById('file-name').innerHTML = this.value;
+};
+
+
+const checkButtons = document.querySelectorAll('.input-box-1');
+console.log(checkButtons);
+
+checkButtons.forEach((item, index) => {
+  const colParent = item.closest('.col-lg-6');
+   colParent ? colParent.classList.add('padding-bottom') : null;
+
+   index === 5 ? item.classList.add("bg-warning") : null;
+});
+
+document.querySelectorAll('.input-box-1')[1].classList.add("this-is-legasy-code")
+ 

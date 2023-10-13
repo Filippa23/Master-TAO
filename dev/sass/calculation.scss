@@ -1,0 +1,143 @@
+.calculation {
+    overflow-x: clip;    
+
+    &-row {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 112px;
+        margin-left: 100px;
+        margin-right: 904px;
+        margin-top: 59px;
+    }
+
+    &-form {
+        background: #363A4D;
+        border-radius: 20px;
+        width: 626px;
+        height: 597px;
+        flex-shrink: 0;
+        padding: 49px 47px 40px;
+
+        [class="col-lg-6"] {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+
+    &-decoration {
+        margin-left: -27px;
+        margin-bottom: -76px;
+        margin-top: -178px;
+        width: 100%;
+        min-width: calc(100% + 30px);
+   }
+
+    label[for="fileInput"] {
+        width: calc(100% - 5px);
+        border-radius: 10px;
+        border: 1px dashed rgba(255, 255, 255, 0.2588235294);
+        text-align: center;
+        padding: 11px 10px;
+        margin: 35px auto 7px auto;
+    }
+
+   .input-box input{
+        border-radius: 10px;
+        padding: 16px 20px;
+        border: none;
+        transition: 0.2s;
+        width: 248px;
+        height: 56px;
+        flex-shrink: 0;
+       // width: 100%;
+        font-size: 15px;
+        margin-bottom: 45px;
+        &::placeholder {
+            color: #CBCBCB;
+        }
+   }
+
+
+    .template-title.col-lg-7{
+        text-align: left;
+        margin-bottom: 59px;
+        margin-top: 98px;
+        max-width: 1140px;
+        height: 90px;
+        //display: flex;
+        //justify-content: center;
+        //align-items: center;
+        margin-left: 85px;
+        margin-right: 372px;
+        h2 {
+            &:after {
+            content: "";
+            position: static;
+            display: inline-block;
+            width: 85px;
+            margin: 10px 10px 10px 19px;
+            height: 2px;
+            background-color: $color-secondary;
+        }
+    }
+        &:after {
+            display: none;
+        }
+
+    }
+
+
+
+    #fileInput {
+        display: none;
+    }
+
+    #file-name {
+        position: absolute;
+        left: 0;
+        top: -2px;
+    }
+
+    .padding-bottom {
+        margin-top: 20px;
+    }
+
+
+.padding {
+padding-top: 21px; 
+}
+
+.has-checkbox {
+margin-bottom: 6px;  
+}
+
+.input-box-1 {
+    padding-bottom: 20px;
+}
+
+
+.input-box {
+    margin-bottom: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    label {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 126%;
+        margin-top: 1px;
+        margin-bottom: 6px;
+        color: #FFF;
+        //text-align: left;
+        font-size: 15px;
+        font-style: normal;
+        margin-top: -35px;
+        width: 121px;
+        width: 100%;
+        padding: 0 auto;
+        white-space: nowrap;
+    }
+}
+ 
+}

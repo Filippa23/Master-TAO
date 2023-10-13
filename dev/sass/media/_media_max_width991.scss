@@ -172,36 +172,41 @@ section.container-fluid,
 .container-fluid.first-screen {
     padding: 54px 0 60px;
     position: relative;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
     &:before {
         border-radius: 0;
         left: 0;
         right: 0;
+        height: 479px;
+        }
     }
 
-}
-
-section {
-
-    .container-fluid {
+    section.advantages.container-fluid {
         padding: 54px 0 60px;
         position: relative;
-        width: 100%;
-        
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
             &::before {
             content: "";
             border-radius: 0;
             left: 0;
             right: 0;
-            height: 479px;
-            width: 100%;
+            }
         }
 
-         ul.slick-dots {
-            bottom: 6px;
-            left: 52%;
-        }
+   
 
-    }
+        
+
+section {
+   // ul.slick-dots {
+        //bottom: 6px;
+       // left: 52%;
+    //}
+
 
     .container.template-title {
         margin-bottom: 45px;
@@ -218,7 +223,44 @@ section {
         margin: 15px 0;
 }
 
+
+
+
+
+.calculation-form {
+    padding: 50px 26px 15px;
+    margin: 0 auto;
+    .btn {
+        max-width: 275px;
+        width: calc(100% - 10px);
+        margin: 0 auto;
+        .icon {
+            margin: 0px -20px 0 64px;
+        }
+    }
 }
+.calculation-decoration {
+    display: none;
+}
+.padding-bottom {
+    margin-top: 8px;margin-bottom: -17px;
+}
+.check-button {
+    margin-bottom: 7px;
+    padding-left: 4px;
+}
+//}
+
+@media screen and (max-width: 955px) {
+.carousel-template {
+    max-width: 390px;
+}
+
+}
+
+}
+
+
 
 
 
