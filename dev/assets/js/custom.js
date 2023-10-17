@@ -66,15 +66,15 @@ document.getElementById('fileInput').onchange = function () {
 };
 
 
-const checkButtons = document.querySelectorAll('.input-box-1');
+const checkButtons = document.querySelectorAll('.check-button');
 console.log(checkButtons);
 
 checkButtons.forEach((item, index) => {
-  const colParent = item.closest('.col-lg-6');
-   colParent ? colParent.classList.add('padding-bottom') : null;
+const colParent = item.closest('.col-lg-6');
+ colParent ? colParent.classList.add('padding-bottom') : null;
 
-   index === 5 ? item.classList.add("bg-warning") : null;
+ index === 5 ? item.classList.add("bg-warning") : null;
 });
 
-document.querySelectorAll('.input-box-1')[1].classList.add("this-is-legasy-code")
+document.querySelectorAll('.check-button')[1].classList.add("this-is-legasy-code")
  

@@ -1,3 +1,6 @@
+.first-screen-container {
+  position: relative;
+  
 
 .first-screen {
     display: flex;
@@ -52,12 +55,12 @@
     padding-left: 0px;
     width: 1170px;
     display: flex;
-    position: relative;
+    //position: relative;
   }
 
 
 
-
+}
 
   .first-screen-nav {
     display: flex;
@@ -109,7 +112,7 @@
       }
     }
 
-  }
+  
   
 .slick-dots {
   display: flex;
@@ -138,10 +141,11 @@
 
 }
 }
+}
 
 
 
-  
+
 
 
   
