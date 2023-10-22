@@ -59,6 +59,119 @@ $(window).on("resize", function () {
 
 
 
+$('.carousel-template').each(function () {
+  var slider = $(this); 
+
+  slider.slick({
+    infinite: true, 
+    slidesToShow: 3, 
+    slidesToScroll: 3, 
+     responsive: [
+        {
+          breakpoint: 1346,
+          settings: {
+            slidesToShow: 2,
+           }
+        },
+        {
+            breakpoint: 955,
+            settings: {
+              slidesToShow: 1,
+             }
+        },
+        {
+            breakpoint:600,
+            settings: {
+              slidesToShow: 1,
+              dots: true,
+              arrows: false,
+             }
+        },
+    ]
+});
+});
+
+
+
+
+
+
+$('.carousel-template').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+
+
+});
+
+
+
+// $('.carousel-template').each(function () {
+  //   var slider = $(this);
+
+ //   slider.slick({
+ //   infinite: true,
+ //   slidesToShow: 3,
+ //    slidesToScroll: 1,
+
+ //    prevArrov: slider.closest('.container').find('.slick-prev'),
+ //    nextArrow: slider.closest('.container').find('.slick-next'),
+ //   });
+// });
+
+// $('.carousel-template').each(function () {
+//     var slider = $(this);
+
+//     slider.slick({
+//     infinite: true,
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+
+//     prevArrov: '<img src="assets/img/ar.gray1.svg">',
+//     nextArrow:'<img src="assets/img/ar.gray2.svg">',
+//     });
+// });
+
+
+
+
+
+
+
+// $(document).ready(function() {
+//     $('.carousel-template').slick({
+//         infinite: true,
+//         slidesToShow: 3,
+//         slidesToScroll: 1,
+//         appendArrows: '.carousel-template-nav',
+      
+      
+//     });
+//     $('.carousel-template').append($('.carousel-template-nav'));
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById('fileInput').onchange = function () {
   //short name
   // document.getElementById('file-name').innerHTML = this.files[0].name;
@@ -78,3 +191,4 @@ const colParent = item.closest('.col-lg-6');
 
 document.querySelectorAll('.check-button')[1].classList.add("this-is-legasy-code")
  
+
