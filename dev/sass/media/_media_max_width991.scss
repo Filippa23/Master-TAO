@@ -9,25 +9,25 @@
         font-size: 24px;
     }
 
-     //h3,
-     //.h3 {
-     //    font-size: 24px;
-   // }
+     h3,
+     .h3 {
+         font-size: 24px;
+    }
 
-    // h4,
-    // .h4 {
-    //     font-size: 22px;
-    // }
+     h4,
+     .h4 {
+         font-size: 22px;
+     }
 
     h5,
     .h5 {
         font-size:18px;
     }
 
-    // h6,
-    // .h6 {
-    //     font-size: 18px;
-    // }
+     h6,
+     .h6 {
+         font-size: 18px;
+     }
 
     section .first-screen {
         margin-bottom: 60px;
@@ -42,7 +42,7 @@
     header {
         margin-top: 5px;
         .navbar {
-           // padding: 16px 0 15px;
+            padding: 16px 0 15px;
            padding: 0;
            
          span.hamburger-box {
@@ -264,7 +264,7 @@ section {
         position: absolute;
         left: 50%;
         top: calc(100% - 2px);
-        transform: translate(-50%, 0);
+        transform: translate(-120%, 1500%);
         width: 85px;
         margin: 10px 10px 10px 19px;
         height: 2px;
@@ -319,19 +319,21 @@ section {
 }
 @media screen and (max-width: 955px) {
 .carousel-template {
-    max-width: 390px;
+    min-width: 390px;
+    margin: 0 auto;
+    
 }
 
 .container-fluid {
-   // width: 375px;
+   //width: 375px;
     height: 726px;
     flex-shrink: 0;
     margin-bottom: 30px;
 }
 
-.template-title {
-    margin-top: 54px;
-}
+//.template-title {
+    //margin-top: 54px;
+//}
 
 .container.carousel-template.card {
     margin: 0 auto;
@@ -340,9 +342,20 @@ section {
     padding: 0 15px;
 }
 
+
+.carousel-template .slick-arrow.slick-prev {
+    left: -25px;
+    z-index: 1;
+    transform: translate(0, -50%) rotate(180deg);
+
 }
 
 
+.slick-arrow.slick-next {
+    right: -25px;
+}
+
+}
 
 
 

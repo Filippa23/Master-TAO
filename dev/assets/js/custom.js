@@ -56,9 +56,6 @@ $(window).on("resize", function () {
 }  //Mobile Only Slider
 });
 
-
-
-
 $('.carousel-template').each(function () {
   var slider = $(this); 
 
@@ -92,15 +89,10 @@ $('.carousel-template').each(function () {
 });
 
 
-
-
-
-
 $('.carousel-template').slick({
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 1,
-
 
 });
 

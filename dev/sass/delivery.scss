@@ -20,5 +20,19 @@
         color: white;
     }
 
-   
+   .carousel-template .slick-arow::before {
+           content: "";
+        }
+
+    
+        
+    .slick-prev:before {
+            content: url("assets/img/arrow-5.svg"); 
+                 
+    }
+    .slick-next:before {
+           content: url("assets/img/arrow-3.svg");
+    }
+
+
 }

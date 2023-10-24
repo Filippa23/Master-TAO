@@ -27,17 +27,24 @@
     .card {
         justify-content: flex-end;
         text-align: left;
+        margin: 0 auto;
+        width: 100%;
     }
 
 
-    
-
-
-
-
+    .slick-prev:before {
+        content: url("assets/img/arrow-5.svg");
+        padding: 10px; 
+             
+   }
+   .slick-next:before {
+       content: url("assets/img/arrow-3.svg");
+       padding: 10px;
 
 }
 
 .card-description {
     margin-bottom: 14px;
+}
+
 }
